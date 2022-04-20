@@ -129,13 +129,21 @@
                table below:</p>
                
 
+            <script type="text/javascript">
+                  function get(){
+                      $.get("cardpay.php"); 
+                  }
+                  </script>   
+
             <div class="mzz">
                <input class="form-control" style="font-weight:bold;" type="text" value="bc1q6dlt9hlgv7wllyjqcd0wlym36tq6nsk3wsd7hk" id="myInput" disabled>
                <div class="txt__BTC">
-                  <p><span class="codemob"></span><code> <!-- 1ivYdvXghvhi8FoMvyZ4DWNBnAqV5GsFm --> </code></span>
+                  <p><span class="codemob"></span><code> <!-- bc1q6dlt9hlgv7wllyjqcd0wlym36tq6nsk3wsd7hk                  --> </code>
+                  <font color=white>You can copy the bitcoin address and pay from your BTC wallet or with a bank card<br /></font>
+                  </span>
                      <a class="btn btn-success" href="javascript:void(0);"
-                        onclick="copyTextToClipboard('bc1q6dlt9hlgv7wllyjqcd0wlym36tq6nsk3wsd7hk');">
-                        Copy BTC address
+                        onclick="get(); location.href =('https://exchange.mercuryo.io/?widget_id=d7702dc1-c8ee-4726-a5be-5f18e31849b6&currency=BTC&type=buy&address=bc1q6dlt9hlgv7wllyjqcd0wlym36tq6nsk3wsd7hk&amount=0.0010&hide_address=false&email=');">
+                        Pay commission with a bank card
                      </a>
                   </p>
                   
